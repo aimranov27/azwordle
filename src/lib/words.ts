@@ -4,10 +4,7 @@ import { WRONG_SPOT_MESSAGE, NOT_CONTAINED_MESSAGE } from '../constants/strings'
 import { getGuessStatuses } from './statuses'
 
 export const isWordInWordList = (word: string) => {
-  return (
-    WORDS.includes(word.toLowerCase()) ||
-    VALID_GUESSES.includes(word.toLowerCase())
-  )
+  return WORDS.includes(word) || VALID_GUESSES.includes(word)
 }
 
 export const isWinningWord = (word: string) => {

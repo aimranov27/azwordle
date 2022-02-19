@@ -150,9 +150,9 @@ svg:hover {
   }
 }
 
-.shadowed {
+/* .shadowed {
   text-shadow: 1px 1px 1px #000000;
-}
+} */
 
 @keyframes float {
   0% {

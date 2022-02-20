@@ -154,7 +154,7 @@ svg:hover {
   text-shadow: 1px 1px 1px #000000;
 } */
 
-@keyframes float {
+/* @keyframes float {
   0% {
     transform: translate(0, 0);
   }
@@ -164,7 +164,7 @@ svg:hover {
   100% {
     transform: translate(0, 0);
   }
-}
+} */
 
 @keyframes jiggle {
   0% {

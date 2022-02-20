@@ -2,8 +2,7 @@ import { getStatuses } from '../../lib/statuses'
 import { Key } from './Key'
 import { useEffect } from 'react'
 import { FiDelete } from 'react-icons/fi'
-import { AiOutlineEnter } from 'react-icons/ai'
-import { ENTER_TEXT, DELETE_TEXT } from '../../constants/strings'
+import { ENTER_TEXT } from '../../constants/strings'
 
 type Props = {
   onChar: (value: string) => void

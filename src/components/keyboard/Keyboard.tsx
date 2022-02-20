@@ -90,7 +90,7 @@ export const Keyboard = ({
           />
         ))}
         <Key width={65.4} value="DELETE" onClick={onClick}>
-          <FiDelete />
+          <FiDelete size={25} />
         </Key>
       </div>
     </div>

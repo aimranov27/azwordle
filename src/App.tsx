@@ -238,7 +238,7 @@ function App() {
   }
 
   return (
-    <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div className="pt-2 pb-8 max-w-7xl mx-auto lg:px-8">
       <div className="flex w-80 mx-auto items-center mb-8 mt-6">
         <InformationCircleIcon
           className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"

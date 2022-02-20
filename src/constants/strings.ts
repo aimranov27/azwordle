@@ -12,13 +12,13 @@ export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
   `Must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
-export const ENTER_TEXT = 'Daxil et'
-export const DELETE_TEXT = 'Sil'
+export const ENTER_TEXT = 'YOXLA'
+export const DELETE_TEXT = 'SİL'
 export const STATISTICS_TITLE = 'Statistika'
 export const GUESS_DISTRIBUTION_TEXT = 'Təxmin Paylanması '
 export const NEW_WORD_TEXT = 'Yeni söz'
 export const SHARE_TEXT = 'Paylaş'
-export const TOTAL_TRIES_TEXT = 'Ümumi cəhd'
-export const SUCCESS_RATE_TEXT = 'Müvəffəqiyyət dərəcəsi'
-export const CURRENT_STREAK_TEXT = 'Cari xal'
-export const BEST_STREAK_TEXT = 'Ən yaxşı xal'
+export const TOTAL_TRIES_TEXT = 'Oyun sayı'
+export const SUCCESS_RATE_TEXT = 'Qazanma faizi'
+export const CURRENT_STREAK_TEXT = 'Hal-hazırkı davamlılıq'
+export const BEST_STREAK_TEXT = 'Ən uzun davamlılıq'

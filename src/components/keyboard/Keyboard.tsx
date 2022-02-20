@@ -3,6 +3,7 @@ import { Key } from './Key'
 import { useEffect } from 'react'
 import { FiDelete } from 'react-icons/fi'
 import { AiOutlineEnter } from 'react-icons/ai'
+import { ENTER_TEXT, DELETE_TEXT } from '../../constants/strings'
 
 type Props = {
   onChar: (value: string) => void
@@ -78,7 +79,7 @@ export const Keyboard = ({
       </div>
       <div className="flex justify-center">
         <Key width={65.4} value="ENTER" onClick={onClick}>
-          <AiOutlineEnter />
+          {ENTER_TEXT}
         </Key>
         {['Z', 'X', 'C', 'V', 'B', 'N', 'M', 'Ç', 'Ş'].map((key) => (
           <Key

@@ -11,7 +11,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="Oyun qaydaları" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         6 cəhddə sözü tapın. Hər təxmindən sonra plitələrin rəngi təxmininizin
-        sözə nə qədər yaxın olduğunu göstərmək üçün dəyişəcək.
+        gizli sözə nə qədər yaxın olduğundan asılı olaraq dəyişəcək. <br></br>
+        Təxmininizi yoxlamaq üçün "Yoxla" düyməsini basmağı unutmayın!
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -27,7 +28,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        A hərfi gizli sözdədir və düzgün yerdədir
+        B hərfi gizli sözdədir və düzgün yerdədir
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -47,14 +48,14 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="B" />
-        <Cell value="E" />
-        <Cell value="Y" />
-        <Cell isRevealing={true} isCompleted={true} value="İ" status="absent" />
-        <Cell value="N" />
+        <Cell value="A" />
+        <Cell value="M" />
+        <Cell value="O" />
+        <Cell isRevealing={true} isCompleted={true} value="R" status="absent" />
+        <Cell value="F" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        İ hərfi gizli sözün tərkibində deyil
+        R hərfi gizli sözün tərkibində deyil
       </p>
     </BaseModal>
   )

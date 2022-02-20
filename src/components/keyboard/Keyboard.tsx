@@ -52,7 +52,7 @@ export const Keyboard = ({
 
   return (
     <div>
-      <div className="flex justify-center mb-2 pr-1 pl-1">
+      <div className="flex justify-center sm:mt-2 mb-2 pr-1 pl-1">
         {['Q', 'Ü', 'E', 'R', 'T', 'Y', 'U', 'İ', 'O', 'P', 'Ö', 'Ğ'].map(
           (key) => (
             <Key

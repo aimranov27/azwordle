@@ -3,7 +3,6 @@ import { solutionIndex } from './words'
 // import { GAME_TITLE } from '../constants/strings'
 import { getStoredIsHighContrastMode } from './localStorage'
 import { MAX_CHALLENGES } from '../constants/settings'
-import { link } from 'fs/promises'
 
 export const shareStatus = (
   guesses: string[],

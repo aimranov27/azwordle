@@ -1,8 +1,9 @@
 import { getGuessStatuses } from './statuses'
 import { solutionIndex } from './words'
-import { GAME_TITLE } from '../constants/strings'
+// import { GAME_TITLE } from '../constants/strings'
 import { getStoredIsHighContrastMode } from './localStorage'
 import { MAX_CHALLENGES } from '../constants/settings'
+import { link } from 'fs/promises'
 
 export const shareStatus = (
   guesses: string[],
@@ -10,10 +11,11 @@ export const shareStatus = (
   isHardMode: boolean
 ) => {
   navigator.clipboard.writeText(
-    `${GAME_TITLE} ${solutionIndex} ${
+    `Azwordle ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-      generateEmojiGrid(guesses)
+      generateEmojiGrid(guesses) +
+      '\n\nOyunu burada dənəyin: https://wordle.aydinimranov.com/\n'
   )
 }
 

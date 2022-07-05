@@ -94,6 +94,7 @@ function App() {
       : false
   )
 
+  //random comment to see why the most recent version is not being pulled
   useEffect(() => {
     // if no game state on load,
     // show the user the how-to info modal
